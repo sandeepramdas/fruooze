@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Orange slice background -->
+  <circle cx="50" cy="50" r="45" fill="#ff8c42"/>
+  <circle cx="50" cy="50" r="40" fill="#fff8f0"/>
+
+  <!-- Orange segments -->
+  <g opacity="0.3">
+    <line x1="50" y1="50" x2="50" y2="10" stroke="#ff8c42" stroke-width="2"/>
+    <line x1="50" y1="50" x2="75" y2="20" stroke="#ff8c42" stroke-width="2"/>
+    <line x1="50" y1="50" x2="85" y2="40" stroke="#ff8c42" stroke-width="2"/>
+    <line x1="50" y1="50" x2="85" y2="60" stroke="#ff8c42" stroke-width="2"/>
+    <line x1="50" y1="50" x2="75" y2="80" stroke="#ff8c42" stroke-width="2"/>
+    <line x1="50" y1="50" x2="50" y2="90" stroke="#ff8c42" stroke-width="2"/>
+    <line x1="50" y1="50" x2="25" y2="80" stroke="#ff8c42" stroke-width="2"/>
+    <line x1="50" y1="50" x2="15" y2="60" stroke="#ff8c42" stroke-width="2"/>
+    <line x1="50" y1="50" x2="15" y2="40" stroke="#ff8c42" stroke-width="2"/>
+    <line x1="50" y1="50" x2="25" y2="20" stroke="#ff8c42" stroke-width="2"/>
+  </g>
+
+  <!-- Leaf on top -->
+  <ellipse cx="50" cy="8" rx="8" ry="12" fill="#2d5f3f"/>
+</svg>

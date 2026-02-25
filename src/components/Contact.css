@@ -1,0 +1,130 @@
+.contact {
+  background-color: var(--white);
+}
+
+.contact-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.delivery-platforms {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+
+.platform-card {
+  background: linear-gradient(135deg, var(--cream) 0%, #fff 100%);
+  border-radius: 20px;
+  padding: 2.5rem;
+  text-align: center;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+.platform-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+}
+
+.platform-card h3 {
+  font-size: 1.5rem;
+  color: var(--primary-green);
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.platform-card p {
+  color: var(--text-light);
+  margin-bottom: 2rem;
+}
+
+.platform-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1rem 2rem;
+  border-radius: 30px;
+  font-weight: 600;
+  color: var(--white);
+  transition: all 0.3s ease;
+}
+
+.platform-icon {
+  font-size: 1.5rem;
+}
+
+.swiggy-btn {
+  background-color: #fc8019;
+}
+
+.swiggy-btn:hover {
+  background-color: #e67316;
+  transform: scale(1.05);
+}
+
+.zomato-btn {
+  background-color: #e23744;
+}
+
+.zomato-btn:hover {
+  background-color: #cb2d39;
+  transform: scale(1.05);
+}
+
+.contact-info {
+  background-color: var(--primary-green);
+  color: var(--white);
+  border-radius: 20px;
+  padding: 3rem;
+  text-align: center;
+}
+
+.contact-info h3 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  font-weight: 700;
+}
+
+.info-items {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+}
+
+.info-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.info-icon {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.info-item h4 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+}
+
+.info-item p {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+@media (max-width: 768px) {
+  .delivery-platforms {
+    grid-template-columns: 1fr;
+  }
+
+  .info-items {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-info {
+    padding: 2rem;
+  }
+}

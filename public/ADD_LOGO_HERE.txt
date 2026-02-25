@@ -1,0 +1,19 @@
+INSTRUCTIONS: Add Your FRUOOZE Logo
+========================================
+
+Please save your FRUOOZE logo image to this directory (/public) with the filename: logo.png
+
+The logo should be:
+- In PNG format (with transparent background preferred)
+- High resolution (at least 500px wide)
+- The image you provided earlier with the orange slices forming the "OO" in FRUOOZE
+
+Once you add the logo.png file here, it will automatically appear in:
+1. Browser favicon/tab icon
+2. Website header/navigation
+3. Footer
+4. Social media previews (Open Graph)
+
+The website is already configured to use /logo.png from this directory.
+
+Temporary: A fallback SVG favicon has been created (favicon.svg) for testing purposes.
