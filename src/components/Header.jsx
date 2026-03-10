@@ -52,7 +52,7 @@ function Header() {
           >
             {!logoError ? (
               <img
-                src="/logo.png"
+                src="/fruoozecolorlogo.png"
                 alt="FRUOOZE Logo"
                 className="logo-image"
                 onError={() => setLogoError(true)}

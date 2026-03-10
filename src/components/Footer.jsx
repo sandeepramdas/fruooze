@@ -19,7 +19,7 @@ function Footer() {
             <div className="footer-logo-container">
               {!logoError ? (
                 <img
-                  src="/logo.png"
+                  src="/fruoozebwlogo.png"
                   alt="FRUOOZE Logo"
                   className="footer-logo-image"
                   onError={() => setLogoError(true)}
